@@ -1,0 +1,228 @@
+/* Navbar */
+.navbar-brand {
+    color: #58B09C;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: #58B09C;
+}
+
+.navbar-list {
+    margin-left: 520px;
+}
+
+.navbar-list-item {
+    margin-right: 40px;
+    color: #58B09C;
+    font-weight: bold;
+}
+
+.navbar-list-item:hover {
+    color: #386150;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-button {
+    margin-right: 30px;
+    color: #58B09C;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    color: #386150;
+    background-color: #58B09C;
+}
+
+.trial-button {
+    margin-right: 15px;
+    color: #58B09C;
+}
+
+/* Home */
+#head_div::before {
+    content: "";
+    background-image: url("background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-top: 20px;
+}
+
+#head_div {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.main-text-section {
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 150px;
+    max-width: 600px;
+}
+
+.main-text {
+    font-size: 50px;
+    color: #386150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtext {
+    color: #386150;
+    margin-top: 30px;
+    line-height: 2rem;
+}
+
+.button {
+    padding: 20px 60px 20px 60px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: #386150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button:hover {
+    background-color: #58B09C;
+}
+
+/* Why-curology */
+#why-curology::before {
+    content: "";
+    background-image: url("why-curology.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  #why-curology {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-top: 35px;
+    align-items: end;
+  }
+  
+  .why-curology-text {
+    width: 70%; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+  }
+  
+  .why-curology-text h2 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #386150;
+    margin-top: 30px;
+  }
+  
+  .why-curology-text p {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #386150;
+    margin-top: 30px;
+    line-height: 2.5;
+  }
+  
+
+/* Reviews */
+#carouselExampleCaptions{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.carousel-item img{
+max-height: 700px;
+width: auto;
+opacity: 0.5;
+z-index: -1;
+}
+
+.carousel-caption{
+    color: #386150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-caption img{
+    border-radius: 50%;
+}
+
+.carousel-caption h5{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.carousel-caption p{
+    font-size: 25px;
+}
+
+/* Community */
+#community-text{
+    color: #386150;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#community-text a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #386150;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.footer-item {
+    margin-top: 40px;
+}
+
+.footer-text {
+    color: #386150;
+    margin-top: 35px;
+    font-size: 15px;
+}

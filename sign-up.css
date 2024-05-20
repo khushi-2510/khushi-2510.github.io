@@ -1,0 +1,68 @@
+.navbar-brand {
+    color: #58B09C;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: #58B09C;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-side::before{
+    content: "";
+    position: absolute;
+    background-color: #C2D1BB;
+    height: 100vh;
+    color: #207178;
+    font-family: 'DM serif Display';
+    text-align: center;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.left-side h1{
+    color: #207178;
+    font-family: 'DM serif Display';
+    font-weight: bold;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.right-side{
+    color: #207178;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM serif Display';
+}
+
+.sign-up{
+    margin-top: 50px;
+}
+
+.input{
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    color:white;
+    background-color: #386150;
+    border-style: none;
+    padding: 12px 70px 12px 70px;
+    margin-top: 15px;
+}
+
+.btn-primary:hover{
+    background-color: #58B09C;
+}
+

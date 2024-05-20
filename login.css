@@ -1,0 +1,105 @@
+.navbar-brand{
+    color: #58B09C;
+font-weight: bolder;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover{
+color: #58B09C;
+}
+
+.navbar-list{
+    margin-left: 520px;
+}
+
+.navbar-list-item{
+    margin-right: 40px;
+    color: #58B09C;
+    font-weight: bold;
+}
+
+.navbar-list-item:hover{
+    color: #386150;
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+#login-div{
+    width: 60%;
+    margin: auto;   
+}
+
+.login-form{
+    margin: 100px 250px 0px 370px;
+}
+
+.label-text{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #386150;
+text-align: center;
+}
+
+.input{
+    margin-top: 7px;
+}
+
+.btn-primary{
+    color:white;
+    background-color: #386150;
+    border-style: none;
+    padding: 12px 70px 12px 70px;
+    margin-top: 15px;
+}
+
+.btn-primary:hover{
+    background-color: #58B09C;
+}
+
+
+#login-div p{
+    text-align: center;
+    margin-right: 17px;
+    margin-top: 20px;
+    color: #386150;
+}
+
+#login-div a{
+    text-decoration: none;
+}
+
+#login-div p:hover{
+    color: #58B09C;
+}
+
+.another-account{
+    width: 25%;
+    margin: auto;
+   text-align: center;
+   justify-content: center;
+   border: 1px solid grey;
+   border-radius: 10px;
+}
+
+.another-account h6{
+    color: #386150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.another-account button{
+    background-color: white;
+    color: #386150;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 24px 12px 24px;
+}
+
+.another-account button:hover{
+    background-color: #58B09C;
+    color: black;
+}
